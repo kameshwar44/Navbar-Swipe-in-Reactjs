@@ -1,0 +1,17 @@
+.Navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  gap: 2rem;
+  font-size: 25px;
+}
+
+.NavbarLink {
+  text-decoration: none;
+}
+.NavbarLink.active {
+  border-bottom: 5px solid blue;
+  color: rgb(255, 0, 0);
+}
